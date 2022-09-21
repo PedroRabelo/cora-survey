@@ -5,11 +5,11 @@ import Image from 'next/image';
 import { SubmitHandler, useForm } from "react-hook-form";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
+import axios from 'axios';
 
 const sexos = [
   { id: "f", title: "Feminino" },
   { id: "m", title: "Masculino" },
-  { id: "n", title: "Não quero informar" },
 ];
 
 type GuestFormData = {
@@ -37,6 +37,9 @@ const Home: NextPage = () => {
   const handleStartSurvey: SubmitHandler<GuestFormData> = async (values) => {
     try {
       // await createSurvey(values);
+
+      const response = axios.post('/api/surveys', values)
+
     } catch (err: any) {
       setError(err.message);
     }
@@ -189,6 +192,7 @@ const Home: NextPage = () => {
                                     id={sexo.id}
                                     type="radio"
                                     className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+                                    value={sexo.title}
                                     {...register("gender")}
                                   />
                                   <label
