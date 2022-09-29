@@ -1,0 +1,220 @@
+[
+  {
+    "id": 1,
+    "group": "Saúde Mental",
+    "title": "Você se considera estressado?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "1.1",
+        "type": "radio",
+        "title": "Sim",
+        "indicator": "orange"
+      },
+      {
+        "id": "1.2",
+        "type": "radio",
+        "title": "Não",
+        "indicator": "green"
+      },
+      {
+        "id": "1.3",
+        "type": "radio",
+        "title": "Não sei",
+        "indicator": "green"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "group": "Saúde Mental",
+    "title": "Como é seu seu estado emocional na maior parte do dia?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "2.1",
+        "type": "radio",
+        "title": "Normal (ausência de humor deprimido ou eufórico)",
+        "indicator": "green"
+      },
+      {
+        "id": "2.2",
+        "type": "radio",
+        "title": "Excitação (sensação exagerada de bem-estar)",
+        "indicator": "yellow"
+      },
+      {
+        "id": "2.3",
+        "type": "radio",
+        "title": "Tristeza",
+        "indicator": "orange"
+      },
+      {
+        "id": "2.4",
+        "type": "radio",
+        "title": "Ansiedade",
+        "indicator": "orange"
+      },
+      {
+        "id": "2.5",
+        "type": "radio",
+        "title": "Apatia, sem ânimo",
+        "indicator": "orange"
+      },
+      {
+        "id": "2.6",
+        "type": "radio",
+        "title": "Irritabilidade",
+        "indicator": "orange"
+      },
+      {
+        "id": "2.7",
+        "type": "radio",
+        "title": "Não sei",
+        "indicator": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "group": "Saúde Mental",
+    "title": "Você possui alguma condição mental diagnosticada?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "3.1",
+        "type": "radio",
+        "title": "Sim",
+        "indicator": "orange"
+      },
+      {
+        "id": "3.2",
+        "type": "radio",
+        "title": "Não",
+        "indicator": "green"
+      },
+      {
+        "id": "3.3",
+        "type": "radio",
+        "title": "Não sei",
+        "indicator": "green"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "group": "Saúde Mental",
+    "title": "Qual?",
+    "subtitle": "Responder apenas se marcou a opção SIM, na resposta anterior",
+    "answers": [
+      {
+        "id": "4.1",
+        "type": "text",
+        "title": "",
+        "indicator": "green"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "group": "Saúde Mental",
+    "title": "Você considera que tem uma boa qualidade de vida?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "5.1",
+        "type": "radio",
+        "title": "Ótima",
+        "indicator": "green"
+      },
+      {
+        "id": "5.2",
+        "type": "radio",
+        "title": "Muito Boa",
+        "indicator": "green"
+      },
+      {
+        "id": "5.3",
+        "type": "radio",
+        "title": "Boa",
+        "indicator": "yellow"
+      },
+      {
+        "id": "5.4",
+        "type": "radio",
+        "title": "Regular",
+        "indicator": "orange"
+      },
+      {
+        "id": "5.5",
+        "type": "radio",
+        "title": "Ruim",
+        "indicator": "red"
+      },
+      {
+        "id": "5.6",
+        "type": "radio",
+        "title": "Péssima",
+        "indicator": "red"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "group": "Saúde Mental",
+    "title": "Você considera seu nível de qualidade do sono:",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "6.1",
+        "type": "radio",
+        "title": "Ótima",
+        "indicator": "green"
+      },
+      {
+        "id": "6.2",
+        "type": "radio",
+        "title": "Muito Boa",
+        "indicator": "green"
+      },
+      {
+        "id": "6.3",
+        "type": "radio",
+        "title": "Boa",
+        "indicator": "yellow"
+      },
+      {
+        "id": "6.4",
+        "type": "radio",
+        "title": "Regular",
+        "indicator": "orange"
+      },
+      {
+        "id": "6.5",
+        "type": "radio",
+        "title": "Ruim",
+        "indicator": "red"
+      },
+      {
+        "id": "6.6",
+        "type": "radio",
+        "title": "Péssima",
+        "indicator": "red"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "group": "Saúde Mental",
+    "title": "O que você acha que poderia melhorar em sua saúde?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "7.1",
+        "type": "text",
+        "title": "",
+        "indicator": "green"
+      }
+    ]
+  }
+]

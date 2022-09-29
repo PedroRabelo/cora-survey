@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "name": "Acupuntura"
+  },
+  {
+    "id": 2,
+    "name": "Alergia e Imunologia"
+  },
+  {
+    "id": 3,
+    "name": "Angiologia"
+  },
+  {
+    "id": 4,
+    "name": "Cancerologia/Oncologia"
+  },
+  {
+    "id": 5,
+    "name": "Cardiologia"
+  },
+  {
+    "id": 6,
+    "name": "Clínico Geral"
+  },
+  {
+    "id": 7,
+    "name": "Dermatologia"
+  },
+  {
+    "id": 8,
+    "name": "Endocrinologia"
+  },
+  {
+    "id": 9,
+    "name": "Ginecologista/obstetra"
+  },
+  {
+    "id": 10,
+    "name": "Geriatra"
+  },
+  {
+    "id": 11,
+    "name": "Médico de Família e Comunidade"
+  },
+  {
+    "id": 12,
+    "name": "Pediatra"
+  },
+  {
+    "id": 13,
+    "name": "Psiquiatra"
+  }
+]

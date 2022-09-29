@@ -1,0 +1,945 @@
+[
+  {
+    "id": 1,
+    "group": "Saúde Geral",
+    "title": "De maneira geral como você avalia sa saúde?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "1.1",
+        "type": "radio",
+        "title": "Excelente",
+        "indicator": "green"
+      },
+      {
+        "id": "1.2",
+        "type": "radio",
+        "title": "Muito Boa",
+        "indicator": "yellow"
+      },
+      {
+        "id": "1.3",
+        "type": "radio",
+        "title": "Boa",
+        "indicator": "yellow"
+      },
+      {
+        "id": "1.4",
+        "type": "radio",
+        "title": "Regular",
+        "indicator": "orange"
+      },
+      {
+        "id": "1.5",
+        "type": "radio",
+        "title": "Ruim",
+        "indicator": "red"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "group": "Saúde Geral",
+    "title": "Você se considera independente para realizar as atividades básicas de vida diária? (alimentar, higiene pessoal, se vestir, etc.)",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "2.1",
+        "type": "radio",
+        "title": "Sim",
+        "indicator": "green"
+      },
+      {
+        "id": "2.2",
+        "type": "radio",
+        "title": "Não",
+        "indicator": "red"
+      },
+      {
+        "id": "2.3",
+        "type": "radio",
+        "title": "Não sabe",
+        "indicator": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "group": "Saúde Geral",
+    "title": "Você se considera dependente para se locomover?",
+    "subtitle": "(depende de terceiros, bengalas/ muletas, cadeira de rodas, andador, outros)",
+    "answers": [
+      {
+        "id": "3.1",
+        "type": "radio",
+        "title": "Sim",
+        "indicator": "red"
+      },
+      {
+        "id": "3.2",
+        "type": "radio",
+        "title": "Não",
+        "indicator": "green"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "group": "Saúde Geral",
+    "title": "Alguma vez já fez exames de rotina?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "4.1",
+        "type": "radio",
+        "title": "Sim",
+        "indicator": "green"
+      },
+      {
+        "id": "4.2",
+        "type": "radio",
+        "title": "Não",
+        "indicator": "red"
+      },
+      {
+        "id": "4.3",
+        "type": "radio",
+        "title": "Não sabe informar",
+        "indicator": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "group": "Saúde Geral",
+    "title": "Alguma vez você já aferiu a Pressão Arterial?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "5.1",
+        "type": "radio",
+        "title": "Sim",
+        "indicator": "green"
+      },
+      {
+        "id": "5.2",
+        "type": "radio",
+        "title": "Não",
+        "indicator": "red"
+      },
+      {
+        "id": "5.3",
+        "type": "radio",
+        "title": "Não sabe informar",
+        "indicator": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "group": "Saúde Geral",
+    "title": "Qual o valor da Pressão Arterial?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "6.1",
+        "type": "radio",
+        "title": "<= 120 x 80 mmHg",
+        "indicator": "green"
+      },
+      {
+        "id": "6.2",
+        "type": "radio",
+        "title": "121-139 x 81-89 mmHg",
+        "indicator": "yellow"
+      },
+      {
+        "id": "6.3",
+        "type": "radio",
+        "title": "140 – 159 x 90 – 99 mmHg",
+        "indicator": "orange"
+      },
+      {
+        "id": "6.4",
+        "type": "radio",
+        "title": "160 – 179 x 100 – 109 mmHg",
+        "indicator": "red"
+      },
+      {
+        "id": "6.5",
+        "type": "radio",
+        "title": "≥ 180 x 110 mmHg",
+        "indicator": "red"
+      },
+      {
+        "id": "6.6",
+        "type": "radio",
+        "title": "Não sabe informar",
+        "indicator": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "group": "Saúde Geral",
+    "title": "Qual o seu Peso? (kg)",
+    "subtitle": "Deve ser uma medida recente",
+    "answers": [
+      {
+        "id": "7.1",
+        "type": "number",
+        "title": "",
+        "indicator": "green"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "group": "Saúde Geral",
+    "title": "Qual sua altura? (cm)",
+    "subtitle": "Deve ser uma medida recente",
+    "answers": [
+      {
+        "id": "8.1",
+        "type": "number",
+        "title": "",
+        "indicator": "green"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "group": "Saúde Geral",
+    "title": "Você procurou atendimento médico nas unidades de urgência e emergência nas últimas semanas?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "9.1",
+        "type": "radio",
+        "title": "Sim",
+        "indicator": "orange"
+      },
+      {
+        "id": "9.2",
+        "type": "radio",
+        "title": "Não",
+        "indicator": "green"
+      },
+      {
+        "id": "9.3",
+        "type": "radio",
+        "title": "Não sabe informar",
+        "indicator": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "group": "Saúde Geral",
+    "title": "Você acompanha sua saúde com algum médico?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "10.1",
+        "type": "radio",
+        "title": "Sim",
+        "indicator": "orange"
+      },
+      {
+        "id": "10.2",
+        "type": "radio",
+        "title": "Não",
+        "indicator": "yellow"
+      },
+      {
+        "id": "10.3",
+        "type": "radio",
+        "title": "Não sabe informar",
+        "indicator": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "group": "Saúde Geral",
+    "title": "Qual a especialidade?",
+    "subtitle": "Responder apenas se marcou a opção SIM, na resposta anterior",
+    "answers": [
+      {
+        "id": "11.1",
+        "type": "select",
+        "data": "specialty",
+        "title": "",
+        "indicator": "green"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "group": "Saúde Geral",
+    "title": "Você possui alguma doença já diagnosticada? Se SIM, Quais?",
+    "subtitle": "",
+    "answerType": "array",
+    "answers": [
+      {
+        "id": "12.1",
+        "type": "checkbox",
+        "title": "Afecções da Tireóide",
+        "indicator": "orange"
+      },
+      {
+        "id": "12.2",
+        "type": "checkbox",
+        "title": "Arritmias",
+        "indicator": "orange"
+      },
+      {
+        "id": "12.3",
+        "type": "checkbox",
+        "title": "AVC",
+        "indicator": "orange"
+      },
+      {
+        "id": "12.4",
+        "type": "checkbox",
+        "title": "Câncer",
+        "indicator": "orange"
+      },
+      {
+        "id": "12.5",
+        "type": "checkbox",
+        "title": "Diabete insulino-dependente",
+        "indicator": "orange"
+      },
+      {
+        "id": "12.6",
+        "type": "checkbox",
+        "title": "Diabete não insulino-dependente",
+        "indicator": "orange"
+      },
+      {
+        "id": "12.7",
+        "type": "checkbox",
+        "title": "Dislipidemia",
+        "indicator": "orange"
+      },
+      {
+        "id": "12.8",
+        "type": "checkbox",
+        "title": "Doenças cardiovasculares (Infarto, angina, etc.)",
+        "indicator": "orange"
+      },
+      {
+        "id": "12.9",
+        "type": "checkbox",
+        "title": "Doença Hepática",
+        "indicator": "orange"
+      },
+      {
+        "id": "12.10",
+        "type": "checkbox",
+        "title": "Doença Osteomuscular (Ossos, Articulações, músculos, etc.)",
+        "indicator": "orange"
+      },
+      {
+        "id": "12.11",
+        "type": "checkbox",
+        "title": "Doença Pulmonar",
+        "indicator": "orange"
+      },
+      {
+        "id": "12.12",
+        "type": "checkbox",
+        "title": "Doença Renal",
+        "indicator": "orange"
+      },
+      {
+        "id": "12.13",
+        "type": "checkbox",
+        "title": "Hipertensão Arterial Sistêmica",
+        "indicator": "orange"
+      },
+      {
+        "id": "12.14",
+        "type": "checkbox",
+        "title": "Outras Doenças cardíacas",
+        "indicator": "orange"
+      },
+      {
+        "id": "12.15",
+        "type": "checkbox",
+        "title": "Outras Doenças vasculares",
+        "indicator": "orange"
+      },
+      {
+        "id": "12.16",
+        "type": "checkbox",
+        "title": "Trombose",
+        "indicator": "orange"
+      },
+      {
+        "id": "12.17",
+        "type": "checkbox",
+        "title": "Não informada",
+        "indicator": "orange"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "group": "Saúde Geral",
+    "title": "Você sente alguma dor crônica?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "13.1",
+        "type": "radio",
+        "title": "Sim",
+        "indicator": "orange"
+      },
+      {
+        "id": "13.2",
+        "type": "radio",
+        "title": "Não",
+        "indicator": "green"
+      },
+      {
+        "id": "13.3",
+        "type": "radio",
+        "title": "Não sabe informar",
+        "indicator": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "group": "Saúde Geral",
+    "title": "Em qual local do corpo",
+    "subtitle": "Responder apenas se marcou a opção SIM, na resposta anterior",
+    "answers": [
+      {
+        "id": "14.1",
+        "type": "text",
+        "title": "",
+        "indicator": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "group": "Saúde Geral",
+    "title": "Apresenta alguma alteração/dor/sintomas em algum local/órgão/sistema?",
+    "subtitle": "",
+    "answerType": "array",
+    "answers": [
+      {
+        "id": "15.1",
+        "type": "checkbox",
+        "title": "Boca/Língua/Dentes",
+        "indicator": "orange"
+      },
+      {
+        "id": "15.2",
+        "type": "checkbox",
+        "title": "Cabeça",
+        "indicator": "orange"
+      },
+      {
+        "id": "15.3",
+        "type": "checkbox",
+        "title": "Coração/Tórax",
+        "indicator": "orange"
+      },
+      {
+        "id": "15.4",
+        "type": "checkbox",
+        "title": "Estômago",
+        "indicator": "orange"
+      },
+      {
+        "id": "15.5",
+        "type": "checkbox",
+        "title": "Intestino/ânus",
+        "indicator": "orange"
+      },
+      {
+        "id": "15.6",
+        "type": "checkbox",
+        "title": "Narinas",
+        "indicator": "orange"
+      },
+      {
+        "id": "15.7",
+        "type": "checkbox",
+        "title": "Olhos/Visão",
+        "indicator": "orange"
+      },
+      {
+        "id": "15.8",
+        "type": "checkbox",
+        "title": "Órgãos sexuais",
+        "indicator": "orange"
+      },
+      {
+        "id": "15.9",
+        "type": "checkbox",
+        "title": "Ossos/articulações",
+        "indicator": "orange"
+      },
+      {
+        "id": "15.10",
+        "type": "checkbox",
+        "title": "Ouvidos",
+        "indicator": "orange"
+      },
+      {
+        "id": "15.11",
+        "type": "checkbox",
+        "title": "Pulmão/Sistema Respiratório",
+        "indicator": "orange"
+      },
+      {
+        "id": "15.12",
+        "type": "checkbox",
+        "title": "Não informado",
+        "indicator": "orange"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "group": "Saúde Geral",
+    "title": "Você já precisou ficar internado em hospital?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "16.1",
+        "type": "radio",
+        "title": "Sim",
+        "indicator": "orange"
+      },
+      {
+        "id": "16.2",
+        "type": "radio",
+        "title": "Não",
+        "indicator": "green"
+      },
+      {
+        "id": "16.3",
+        "type": "radio",
+        "title": "Não sabe informar",
+        "indicator": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "group": "Saúde Geral",
+    "title": "Qual o motivo da internação?",
+    "subtitle": "Responder apenas se marcou a opção SIM, na resposta anterior",
+    "answerType": "array",
+    "answers": [
+      {
+        "id": "17.1",
+        "type": "checkbox",
+        "title": "Asma/Bronquite",
+        "indicator": "orange"
+      },
+      {
+        "id": "17.2",
+        "type": "checkbox",
+        "title": "AVC (Acidente Vascular Cerebral)",
+        "indicator": "orange"
+      },
+      {
+        "id": "17.3",
+        "type": "checkbox",
+        "title": "Cirurgias",
+        "indicator": "orange"
+      },
+      {
+        "id": "17.4",
+        "type": "checkbox",
+        "title": "Diabetes",
+        "indicator": "orange"
+      },
+      {
+        "id": "17.5",
+        "type": "checkbox",
+        "title": "Diarreia/vômitos",
+        "indicator": "orange"
+      },
+      {
+        "id": "17.6",
+        "type": "checkbox",
+        "title": "Gestação/parto",
+        "indicator": "orange"
+      },
+      {
+        "id": "17.7",
+        "type": "checkbox",
+        "title": "Infarto Agudo do Miocárdio",
+        "indicator": "orange"
+      },
+      {
+        "id": "17.8",
+        "type": "checkbox",
+        "title": "Pneumonia",
+        "indicator": "orange"
+      },
+      {
+        "id": "17.9",
+        "type": "checkbox",
+        "title": "Pressao Alta",
+        "indicator": "orange"
+      },
+      {
+        "id": "17.10",
+        "type": "checkbox",
+        "title": "Outro",
+        "indicator": "orange"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "group": "Saúde Geral",
+    "title": "Você já realizou alguma cirurgia?",
+    "subtitle": "",
+    "answerType": "array",
+    "answers": [
+      {
+        "id": "18.1",
+        "type": "checkbox",
+        "title": "Amigdalas",
+        "indicator": "orange"
+      },
+      {
+        "id": "18.2",
+        "type": "checkbox",
+        "title": "Apêndice",
+        "indicator": "orange"
+      },
+      {
+        "id": "18.3",
+        "type": "checkbox",
+        "title": "Cesariana",
+        "indicator": "orange"
+      },
+      {
+        "id": "18.4",
+        "type": "checkbox",
+        "title": "Hemorroidas",
+        "indicator": "orange"
+      },
+      {
+        "id": "18.5",
+        "type": "checkbox",
+        "title": "Hérnia",
+        "indicator": "orange"
+      },
+      {
+        "id": "18.6",
+        "type": "checkbox",
+        "title": "Laqueadura Tubária",
+        "indicator": "orange"
+      },
+      {
+        "id": "18.7",
+        "type": "checkbox",
+        "title": "Retirada de Ovários",
+        "indicator": "orange"
+      },
+      {
+        "id": "18.8",
+        "type": "checkbox",
+        "title": "Pneumonia",
+        "indicator": "orange"
+      },
+      {
+        "id": "18.9",
+        "type": "checkbox",
+        "title": "Retirada de Próstata Parcial",
+        "indicator": "orange"
+      },
+      {
+        "id": "18.10",
+        "type": "checkbox",
+        "title": "Retirada de Próstata Total",
+        "indicator": "orange"
+      },
+      {
+        "id": "18.11",
+        "type": "checkbox",
+        "title": "Retirada de Tumor Benigno",
+        "indicator": "orange"
+      },
+      {
+        "id": "18.12",
+        "type": "checkbox",
+        "title": "Retirada de Tumor Maligno",
+        "indicator": "orange"
+      },
+      {
+        "id": "18.13",
+        "type": "checkbox",
+        "title": "Retirada de Útero",
+        "indicator": "orange"
+      },
+      {
+        "id": "18.14",
+        "type": "checkbox",
+        "title": "Vasectomia",
+        "indicator": "orange"
+      },
+      {
+        "id": "18.15",
+        "type": "checkbox",
+        "title": "Vesícula",
+        "indicator": "orange"
+      },
+      {
+        "id": "18.16",
+        "type": "checkbox",
+        "title": "Outro",
+        "indicator": "orange"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "group": "Saúde Geral",
+    "title": "Possui alergia a algum medicamento?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "19.1",
+        "type": "text",
+        "title": "",
+        "indicator": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "group": "Saúde Geral",
+    "title": "Você possui outros tipos de alergia?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "20.1",
+        "type": "text",
+        "title": "",
+        "indicator": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "group": "Saúde Geral",
+    "title": "Você usa algum medicamento diariamente?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "21.1",
+        "type": "radio",
+        "title": "Sim",
+        "indicator": "orange"
+      },
+      {
+        "id": "21.2",
+        "type": "radio",
+        "title": "Não",
+        "indicator": "green"
+      },
+      {
+        "id": "21.3",
+        "type": "radio",
+        "title": "Não sabe informar",
+        "indicator": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "group": "Saúde Geral",
+    "title": "Qual a finalidade do medicamento?",
+    "subtitle": "Responder apenas se marcou a opção SIM, na resposta anterior",
+    "answerType": "array",
+    "answers": [
+      {
+        "id": "22.1",
+        "type": "checkbox",
+        "title": "Anticoncepção",
+        "indicator": "orange"
+      },
+      {
+        "id": "22.2",
+        "type": "checkbox",
+        "title": "Doenças Psiquiátricas",
+        "indicator": "orange"
+      },
+      {
+        "id": "22.3",
+        "type": "checkbox",
+        "title": "Reposição Hormonal",
+        "indicator": "orange"
+      },
+      {
+        "id": "22.4",
+        "type": "checkbox",
+        "title": "Reposição de vitaminas",
+        "indicator": "orange"
+      },
+      {
+        "id": "22.5",
+        "type": "checkbox",
+        "title": "Tratamento de Doenças Crônicas",
+        "indicator": "orange"
+      },
+      {
+        "id": "22.6",
+        "type": "checkbox",
+        "title": "Outro",
+        "indicator": "orange"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "group": "Saúde Geral",
+    "title": "Está com o cartão de vacinas completo para sua idade?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "23.1",
+        "type": "radio",
+        "title": "Sim",
+        "indicator": "green"
+      },
+      {
+        "id": "23.2",
+        "type": "radio",
+        "title": "Não",
+        "indicator": "yellow"
+      },
+      {
+        "id": "23.3",
+        "type": "radio",
+        "title": "Não sabe informar",
+        "indicator": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "group": "Saúde Geral",
+    "title": "Quais as doenças mais prevalentes nos familiares de primeiro e segundo grau (pais, filhos, irmãos, avós)?",
+    "subtitle": "",
+    "answerType": "array",
+    "answers": [
+      {
+        "id": "24.1",
+        "type": "checkbox",
+        "title": "Afecções da Tireóide",
+        "indicator": "orange"
+      },
+      {
+        "id": "24.2",
+        "type": "checkbox",
+        "title": "Arritmias",
+        "indicator": "orange"
+      },
+      {
+        "id": "24.3",
+        "type": "checkbox",
+        "title": "AVC",
+        "indicator": "orange"
+      },
+      {
+        "id": "24.4",
+        "type": "checkbox",
+        "title": "Câncer",
+        "indicator": "orange"
+      },
+      {
+        "id": "24.5",
+        "type": "checkbox",
+        "title": "Diabete insulino-dependente",
+        "indicator": "orange"
+      },
+      {
+        "id": "24.6",
+        "type": "checkbox",
+        "title": "Diabete não insulino-dependente",
+        "indicator": "orange"
+      },
+      {
+        "id": "24.7",
+        "type": "checkbox",
+        "title": "Dislipidemia",
+        "indicator": "orange"
+      },
+      {
+        "id": "24.8",
+        "type": "checkbox",
+        "title": "Doenças cardiovasculares (Infarto, angina, etc.)",
+        "indicator": "orange"
+      },
+      {
+        "id": "24.9",
+        "type": "checkbox",
+        "title": "Doença Hepática",
+        "indicator": "orange"
+      },
+      {
+        "id": "24.10",
+        "type": "checkbox",
+        "title": "Doença Osteomuscular (Ossos, Articulações, músculos, etc.)",
+        "indicator": "orange"
+      },
+      {
+        "id": "24.11",
+        "type": "checkbox",
+        "title": "Doença Pulmonar",
+        "indicator": "orange"
+      },
+      {
+        "id": "24.12",
+        "type": "checkbox",
+        "title": "Doença Renal",
+        "indicator": "orange"
+      },
+      {
+        "id": "24.13",
+        "type": "checkbox",
+        "title": "Hipertensão Arterial Sistêmica",
+        "indicator": "orange"
+      },
+      {
+        "id": "24.14",
+        "type": "checkbox",
+        "title": "Outras Doenças cardíacas",
+        "indicator": "orange"
+      },
+      {
+        "id": "24.15",
+        "type": "checkbox",
+        "title": "Outras Doenças vasculares",
+        "indicator": "orange"
+      },
+      {
+        "id": "24.16",
+        "type": "checkbox",
+        "title": "Trombose",
+        "indicator": "orange"
+      },
+      {
+        "id": "24.17",
+        "type": "checkbox",
+        "title": "Não informada",
+        "indicator": "orange"
+      }
+    ]
+  }
+]

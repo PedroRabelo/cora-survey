@@ -1,11 +1,11 @@
-import { useState } from 'react';
+import { yupResolver } from "@hookform/resolvers/yup";
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
+import { useContext, useState } from 'react';
 import { SubmitHandler, useForm } from "react-hook-form";
 import * as yup from "yup";
-import { yupResolver } from "@hookform/resolvers/yup";
-import axios from 'axios';
+import { FormContext } from '../contexts/FormContext';
 
 const sexos = [
   { id: "f", title: "Feminino" },
@@ -28,6 +28,8 @@ const guestFormSchema = yup.object().shape({
 const Home: NextPage = () => {
   const [error, setError] = useState("");
 
+  const { createSurvey } = useContext(FormContext);
+
   const { register, handleSubmit, formState } = useForm<GuestFormData>({
     resolver: yupResolver(guestFormSchema),
   });
@@ -36,10 +38,7 @@ const Home: NextPage = () => {
 
   const handleStartSurvey: SubmitHandler<GuestFormData> = async (values) => {
     try {
-      // await createSurvey(values);
-
-      const response = axios.post('/api/surveys', values)
-
+      await createSurvey(values);
     } catch (err: any) {
       setError(err.message);
     }

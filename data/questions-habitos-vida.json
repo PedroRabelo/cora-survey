@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "group": "Hábitos de Vida",
+    "title": "Você fuma?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "1.1",
+        "type": "radio",
+        "title": "Sim",
+        "indicator": "orange"
+      },
+      {
+        "id": "1.2",
+        "type": "radio",
+        "title": "Não",
+        "indicator": "green"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "group": "Hábitos de Vida",
+    "title": "Qual frequência que fuma?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "2.1",
+        "type": "radio",
+        "title": "Diariamente",
+        "indicator": "red"
+      },
+      {
+        "id": "2.2",
+        "type": "radio",
+        "title": "Frequentemente",
+        "indicator": "orange"
+      },
+      {
+        "id": "2.3",
+        "type": "radio",
+        "title": "Esporadicamente",
+        "indicator": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "group": "Hábitos de Vida",
+    "title": "Há quanto tempo você fuma?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "3.1",
+        "type": "number",
+        "title": "",
+        "indicator": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "group": "Hábitos de Vida",
+    "title": "Quantos cigarros você fuma por dia?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "4.1",
+        "type": "radio",
+        "title": "1-5",
+        "indicator": "yellow"
+      },
+      {
+        "id": "4.2",
+        "type": "radio",
+        "title": "6-10",
+        "indicator": "orange"
+      },
+      {
+        "id": "4.3",
+        "type": "radio",
+        "title": "11-15",
+        "indicator": "orange"
+      },
+      {
+        "id": "4.4",
+        "type": "radio",
+        "title": "16-20",
+        "indicator": "red"
+      },
+      {
+        "id": "4.5",
+        "type": "radio",
+        "title": "mais de 20",
+        "indicator": "red"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "group": "Hábitos de Vida",
+    "title": "Você ingere bebida alcóolica?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "5.1",
+        "type": "radio",
+        "title": "Sim",
+        "indicator": "orange"
+      },
+      {
+        "id": "5.2",
+        "type": "radio",
+        "title": "Não",
+        "indicator": "green"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "group": "Hábitos de Vida",
+    "title": "Quantas doses você costuma beber por semana?",
+    "subtitle": "1 dose padrão de bebida alcoólica = 350 ml de cerveja , 150 ml de vinho, 50 ml de destilado (National Institute on Alcohol Abuse and Alcoholismo - NIAAA",
+    "answers": [
+      {
+        "id": "6.1",
+        "type": "radio",
+        "title": "Menos de 1 dose por semana",
+        "indicator": "yellow"
+      },
+      {
+        "id": "6.2",
+        "type": "radio",
+        "title": "Menos de 7 doses por semana",
+        "indicator": "orange"
+      },
+      {
+        "id": "6.3",
+        "type": "radio",
+        "title": "Entre 7-14 doses por semana",
+        "indicator": "orange"
+      },
+      {
+        "id": "6.4",
+        "type": "radio",
+        "title": "Mais de 14 doses por semana",
+        "indicator": "red"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "group": "Hábitos de Vida",
+    "title": "Você usa alguma droga ilícita?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "7.1",
+        "type": "radio",
+        "title": "Sim",
+        "indicator": "orange"
+      },
+      {
+        "id": "7.2",
+        "type": "radio",
+        "title": "Não",
+        "indicator": "green"
+      },
+      {
+        "id": "7.3",
+        "type": "radio",
+        "title": "Esporadicamente",
+        "indicator": "yellow"
+      },
+      {
+        "id": "7.4",
+        "type": "radio",
+        "title": "Já usei, mas não uso mais",
+        "indicator": "yellow"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "group": "Hábitos de Vida",
+    "title": "Você faz alguma atividade física?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "8.1",
+        "type": "radio",
+        "title": "Sim",
+        "indicator": "green"
+      },
+      {
+        "id": "8.2",
+        "type": "radio",
+        "title": "Não",
+        "indicator": "orange"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "group": "Hábitos de Vida",
+    "title": "Quanto tempo por semana você costuma praticar exercício físico ou esporte?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "9.1",
+        "type": "radio",
+        "title": "menos que 180 min / semana",
+        "indicator": "orange"
+      },
+      {
+        "id": "9.2",
+        "type": "radio",
+        "title": "mais que 180 min / semana",
+        "indicator": "green"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "group": "Hábitos de Vida",
+    "title": "Você se considera vegetariano ou vegano?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "10.1",
+        "type": "radio",
+        "title": "Sim",
+        "indicator": "green"
+      },
+      {
+        "id": "10.2",
+        "type": "radio",
+        "title": "Não",
+        "indicator": "green"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "group": "Hábitos de Vida",
+    "title": "Você possui alguma intolerância ou alergia alimentar?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "11.1",
+        "type": "radio",
+        "title": "Sim",
+        "indicator": "orange"
+      },
+      {
+        "id": "11.2",
+        "type": "radio",
+        "title": "Não",
+        "indicator": "green"
+      },
+      {
+        "id": "11.3",
+        "type": "radio",
+        "title": "Não Sei",
+        "indicator": "green"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "group": "Hábitos de Vida",
+    "title": "Qual intolerância ou alergia alimentar",
+    "subtitle": "Responder apenas se marcou a opção SIM, na resposta anterior",
+    "answers": [
+      {
+        "id": "12.1",
+        "type": "text",
+        "title": "",
+        "indicator": "green"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "group": "Hábitos de Vida",
+    "title": "Quantas porções de verduras, legumes, e hortaliças você ingere no dia?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "13.1",
+        "type": "radio",
+        "title": "Nenhuma",
+        "indicator": "orange"
+      },
+      {
+        "id": "13.2",
+        "type": "radio",
+        "title": "1-2",
+        "indicator": "yellow"
+      },
+      {
+        "id": "13.3",
+        "type": "radio",
+        "title": "3 ou mais",
+        "indicator": "green"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "group": "Hábitos de Vida",
+    "title": "Quantas porções de frutas você ingere no dia?",
+    "subtitle": "",
+    "answers": [
+      {
+        "id": "14.1",
+        "type": "radio",
+        "title": "Nenhuma",
+        "indicator": "orange"
+      },
+      {
+        "id": "14.2",
+        "type": "radio",
+        "title": "1-2",
+        "indicator": "yellow"
+      },
+      {
+        "id": "14.3",
+        "type": "radio",
+        "title": "3 ou mais",
+        "indicator": "green"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "group": "Hábitos de Vida",
+    "title": "Tem costume de ingerir alimentos industrializados?",
+    "subtitle": "Salames, refrigerantes, enlatados, salgadinhos de embalagens, macarrão instantâneo, temperos prontos, molhos prontos, etc.",
+    "answers": [
+      {
+        "id": "15.1",
+        "type": "radio",
+        "title": "Nunca",
+        "indicator": "green"
+      },
+      {
+        "id": "15.2",
+        "type": "radio",
+        "title": "Sim, raramente",
+        "indicator": "yellow"
+      },
+      {
+        "id": "15.3",
+        "type": "radio",
+        "title": "Sim, com frequência",
+        "indicator": "orange"
+      }
+    ]
+  }
+]
