@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Link from "next/link";
 import Router from "next/router";
 import { useContext, useEffect, useState } from "react";
+import { Button } from "../../components/Button";
 import Form from "../../components/Form";
 import FormHeader from "../../components/FormHeader";
 import { IQuestion } from "../../components/Question";
@@ -18,7 +18,7 @@ const steps = [
 export default function SecondStep() {
   const [questions, setQuestions] = useState<IQuestion[]>();
 
-  const { saveAnswers, survey } = useContext(FormContext);
+  const { saveAnswers, survey, isLoading } = useContext(FormContext);
 
   useEffect(() => {
     setQuestions(questionsData);
@@ -53,13 +53,14 @@ export default function SecondStep() {
 
         <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
           <div className="flex justify-end">
-            <button
+            <Button
+              title="Próximo"
               type="submit"
+              color="primary"
+              disabled={isLoading}
+              loading={isLoading}
               onClick={() => saveAnswers("third-step")}
-              className="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-            >
-              Próximo
-            </button>
+            />
           </div>
         </div>
       </div>

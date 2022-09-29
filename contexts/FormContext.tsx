@@ -28,6 +28,7 @@ type FormContextData = {
   createSurvey(guest: GuestData): Promise<void>;
   survey?: ISurvey;
   saveAnswers(nextStep: string): void;
+  isLoading: boolean;
 };
 
 type FormProviderProps = {
@@ -40,8 +41,10 @@ export function FormProvider({ children }: FormProviderProps) {
   const formAnswers: IQuestionAnswer[] = [];
 
   const [survey, setSurvey] = useState<ISurvey>();
+  const [isLoading, setIsLoading] = useState(false);
 
   function pushAnswer(answer: IQuestionAnswer) {
+    setIsLoading(true);
     const questionIndex = formAnswers.findIndex(
       (ans) => ans.questionId == answer.questionId
     );
@@ -74,10 +77,12 @@ export function FormProvider({ children }: FormProviderProps) {
       // setFormAnswers((prevState => [answer, ...prevState]));
       formAnswers.push(answer);
     }
+    setIsLoading(false);
   }
 
   async function createSurvey(guestData: GuestData) {
     try {
+      setIsLoading(true);
       const response = await axios.post("/api/surveys", guestData);
 
       const { id, guestId } = response.data;
@@ -88,26 +93,32 @@ export function FormProvider({ children }: FormProviderProps) {
       });
 
       await Router.push("/form/first-step");
+
+      setIsLoading(false);
     } catch (err: any) {
+      setIsLoading(false);
       throw new Error(err.response.data.message);
     }
   }
 
   async function saveAnswers(nextStep: string) {
     try {
+      setIsLoading(true);
       await axios.post(`/api/survey/${survey?.id}/answers`, {
         formAnswers,
       });
 
       await Router.push(`/form/${nextStep}`);
+      setIsLoading(false);
     } catch (err: any) {
+      setIsLoading(false);
       throw new Error(err.response.data.message);
     }
   }
 
   return (
     <FormContext.Provider
-      value={{ pushAnswer, formAnswers, createSurvey, survey, saveAnswers }}
+      value={{ pushAnswer, formAnswers, createSurvey, survey, saveAnswers, isLoading }}
     >
       {children}
     </FormContext.Provider>

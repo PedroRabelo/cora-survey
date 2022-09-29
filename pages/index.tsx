@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { useContext, useState } from 'react';
 import { SubmitHandler, useForm } from "react-hook-form";
 import * as yup from "yup";
+import { Button } from "../components/Button";
 import { FormContext } from '../contexts/FormContext';
 
 const sexos = [
@@ -28,7 +29,7 @@ const guestFormSchema = yup.object().shape({
 const Home: NextPage = () => {
   const [error, setError] = useState("");
 
-  const { createSurvey } = useContext(FormContext);
+  const { createSurvey, isLoading } = useContext(FormContext);
 
   const { register, handleSubmit, formState } = useForm<GuestFormData>({
     resolver: yupResolver(guestFormSchema),
@@ -206,13 +207,14 @@ const Home: NextPage = () => {
                           </fieldset>
                         </div>
 
-                        <div>
-                          <button
+                        <div className="flex justify-center items-center">
+                          <Button
+                            title="Começar"
+                            color="primary"
                             type="submit"
-                            className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                          >
-                            Começar
-                          </button>
+                            disabled={isLoading}
+                            loading={isLoading}
+                          />
                         </div>
                         <div className="flex-col">
                           <p className="text-red-500">
